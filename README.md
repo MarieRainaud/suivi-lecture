@@ -12,7 +12,7 @@ Ce projet est une application de suivi de lecture qui permet à l'utilisateur d'
 - Suivre le statut de chaque livre (en cours, terminé)
 - Gérer des livres en série avec des volumes
 
-## A mettre en place
+## Reste à mettre en place
 JS :
 - Formulaire
 - Stockage local
@@ -21,6 +21,7 @@ JS :
 
 CSS :
 - Importer la police
+- visibilité sur téléphone : défilement horizontal
 
 ## Fonctionnalités envisagées
 - Ne faire apparaitre Nom de série et Volume que quand Serie est sur Oui
