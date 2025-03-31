@@ -23,7 +23,7 @@ h1 {
     width: 100px;
 }
 label, input, button {
-    margin: 10px 0 10px 0;
+    margin: 5px 0 5px 0;
 }
 .inputform {
     min-width: 200px;
