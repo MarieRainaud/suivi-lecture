@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suivi de lecture</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    <h1>Suivi de lecture</h1>
+    <div class="list">
+        <h2>Liste des livres</h2>
+        <table class="bookList">
+            <thead>
+                <tr>
+                    <th id="titreList">Titre</th>
+                    <th id="authorList">Auteur</th>
+                    <th id="serieList">Série</th>
+                    <th id="volumeList">Volume</th>
+                    <th id="statutList">Statut</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+    <div class="new">
+        <h2>Ajout d'un nouveau livre</h2>
+        <form id="bookForm">
+            <table>
+                <tr>
+                    <td><label for="title">Titre : </label></td>
+                    <td><input type="text" id="title" placeholder="Titre" class="inputform" required></td>
+                </tr>
+                <tr>
+                    <td><label for="author">Auteur : </label></td>
+                    <td><input type="text" id="author" placeholder="Auteur" class="inputform"></td>
+                </tr>
+                <tr>
+                    <td><label for="serie">Série : </label></td>
+                    <td><input type="radio" id="serieYes" name="serie" value="oui" checked>
+                        <label for="serieYes">Oui</label>
+                        <input type="radio" id="serieNo" name="serie" value="non">
+                        <label for="serieNo">Non</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="seriename">Nom de la série : </label></td>
+                    <td><input type="text" id="seriename" placeholder="Nom de la série" class="inputform"></td>
+                </tr>
+                <tr>
+                    <td><label for="volume">Volume : </label></td>
+                    <td><input type="number" id="volume" placeholder="Volume" min="1" class="inputform"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>

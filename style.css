@@ -1,0 +1,30 @@
+* {
+    background-color: #98f3fa;
+    font-family: garamond;
+}
+h1 {
+    text-align: center;
+}
+.new {
+    padding-top: 30px;
+}
+.bookList {
+    width: 100%;
+    border-collapse: collapse;
+}
+.bookList th, .bookList td {
+    border: solid darkblue;
+    padding: 5px;
+}
+#volumeList {
+    width: 60px;
+}
+#statutList {
+    width: 100px;
+}
+label, input, button {
+    margin: 10px 0 10px 0;
+}
+.inputform {
+    min-width: 200px;
+}
